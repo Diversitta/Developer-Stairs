@@ -1,4 +1,4 @@
-# **Udacity Front-End Web Developer Nanodegree Projects**
+# **Udacity Front-End Web Developer NanoDegree Projects**
 
 This repository hosts all assignments submitted for Udacity Front-End Web Developer Nanodegree. The root directory of the repository will be based on the second Web Foundations module assignment "Build a portfolio site" and acts as GitHub landing site to showcase all other assignments. Currently, this README will do the trick...
 
