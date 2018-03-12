@@ -1,0 +1,56 @@
+/* Border for the card */
+.card {
+  width: 300px;
+  font-family: helvetica, arial, sans-serif;
+  margin: auto;
+  border: 2.5px solid #000000;
+  border-radius: 0px 30px 00px 30px;
+  box-shadow: 10px 10px 10px -5px rgba(0,0,0,0.45);
+  padding: 10px 30px 35px;
+  background-color: #096380;
+  background-image: url("https://preview.ibb.co/dhERa6/DSC07748.jpg" );
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}  
+/* Header */
+.name {
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 3px 2px #333033;
+  letter-spacing: 4px;
+  font-size: 25px;
+  margin-bottom: 0.7em;
+  font-weight: 900;
+  color: #fff;
+  border: solid 1px #0a010a;
+  border-radius: 0px 20px 0px 20px;
+  width: 300px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+/* Image */
+img {
+  border-radius: 20px 20px 0px 0px;
+}
+/* Intro */
+.interesting-fact {
+  font-style: italic;
+}
+/* Box for the text */
+.textbox {
+  border: solid 1px #04313d;
+  border-radius: 0px 0px 20px 20px;
+  background-color: #008080;
+  width: 279px;
+  padding: 0px 10px 0px 10px;
+  text-align: justify;
+}
+/* List style */
+.the-list {
+	list-style: none;
+	padding: 2px;
+}
+/* List */
+.list {
+  font-weight: bold;
+}
