@@ -34,7 +34,7 @@ ul, a {
 
 /*** Header ***/
 
-header {
+.header {
     width: 100%;
     min-height: 100px;
     transition: min-height 0.3s;
@@ -48,7 +48,7 @@ header {
 .header_name {
     font-size: 2.5em;
     font-weight: 600;
-    margin: 20px 15px 0 0;
+    margin: 25px 15px 0 0;
     text-transform: uppercase;
     text-align: right;
 }
@@ -57,7 +57,7 @@ header {
     font-size: 1.5em;
     text-transform: capitalize;
     text-align: right;
-    margin: 0 15px 15px 0;
+    margin: 0 15px 19px 0;
 }
 
 .header_logo {
@@ -91,7 +91,7 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
-
+/*** Menu buttons have no links ***/
 .nav_item {
     box-sizing: border-box;
     margin: 0 15px 0 0;
@@ -153,7 +153,7 @@ header {
     height: auto;
     border-radius: 5px;
     flex-wrap: wrap;
-    flex-directon: row;
+    flex-direction: row;
 }
 
 .project_title {
@@ -200,7 +200,7 @@ header {
 
 /*** Media queries ***/
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 359px) {
     .container {
         width: 100%;
         font-size: 1em;
@@ -215,7 +215,7 @@ header {
         vertical-align: bottom;
     }
     .header_subtitle  {
-        font-size: 0.9em;
+        font-size: 0.85em;
         margin-left: 0;
         vertical-align: bottom;
     }
@@ -232,42 +232,75 @@ header {
         float: left;
     }
     .project_box:hover {
-        background-color: black;
+        background-color: grey;
+    }
+    .project_title {
+        font-size: 0.9em;
     }
 }
 
-@media screen and (min-width: 401px) {
+@media screen and (min-width: 360px) {
     .header_logo {
-        height: 75px;
+        height: 80px;
         margin-left: 0.5em; 
     }
+
     .project_container {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
     }
+
     .header_name {
         margin-left: 10px 10px 0 0;
         font-size: 2em;
     }
+
     .header_subtitle  {
         font-size: 1.3em;
     }
+
     .nav_list {
-        width: 100%;
+        width: auto;
     }
+
     .nav_item {
-        display: inline-block;
-        width: 15%;
-        text-align: center;
+        width: auto;
+        float: left;
+        flex-wrap: wrap;
         line-height: 20px;
-        padding: 15px;
-         font-size: 1em;
+        padding: 10px;
+        font-size: 0.85em;
     }
+
     .nav a:hover {
         font-size: 22px;
         font-weight: 300px;
         color: white;
+    }
+
+    .header_name {
+        margin-left: 10px 10px 0 0;
+        font-size: 1.5em;
+    }
+
+    .header_subtitle  {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .header_logo {
+        height: 95px;
+        margin-left: 0.5em;
+    }
+
+    .header_name {
+        font-size: 2.5em;
+    }
+
+    .header_subtitle {
+        font-size: 1.5em;
     }
 }
 
@@ -276,4 +309,5 @@ header {
         max-width: 950px;
         margin-left: auto;
         margin-right: auto;
+    }
 }
