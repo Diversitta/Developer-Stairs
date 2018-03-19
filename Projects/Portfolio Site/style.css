@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -12,15 +13,25 @@ body {
     background-color: black;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     margin: 0; 
 }
 
-.container, .header, .nav, .footer, .content, .article, .div {
+.container,
+.header,
+.nav,
+.footer,
+.content,
+.article,
+.div {
     box-sizing: border-box;
 }
 
-ul, a {
+ul,
+a {
     margin: 0;
     list-style: none;
     text-decoration: none;
@@ -86,12 +97,15 @@ ul, a {
 }
 
 /* Navigation */
+
 .nav {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
+
 /*** Menu buttons have no links ***/
+
 .nav_item {
     box-sizing: border-box;
     margin: 0 15px 0 0;
