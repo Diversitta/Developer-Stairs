@@ -3,8 +3,8 @@
 This repository hosts all assignments submitted for Udacity Front-End Web Developer Nanodegree. The root directory of the repository will be based on the second Web Foundations module assignment "Build a portfolio site" and acts as GitHub landing site to showcase all other assignments. Currently, this README will do the trick...
 
 ## **Projects**
-1. [Animal Trading Card](projects/1_Animal%20Traiding%20Card/card.html) - a simple HTML/CSS markup exercise;
-2. [Portfolio Site](projects/2_portfolio%20site/index.html) - a simple one page website;
+1. [Animal Trading Card](Projects/Animal%20Traiding%20Card/card.html) - a simple HTML/CSS markup exercise;
+2. [Portfolio Site](Projects/Portfolio%20site/index.html) - a simple one page website;
 
 ## **License**
 WTFPL
