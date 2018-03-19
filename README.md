@@ -4,7 +4,7 @@ This repository hosts all assignments submitted for Udacity Front-End Web Develo
 
 ## **Projects**
 1. [Animal Trading Card](Projects/Animal%20Traiding%20Card) - a simple HTML/CSS markup exercise;
-2. [Portfolio Site](Projects/Portfolio%20site) - a simple one page website;
+2. [Portfolio Site](Projects/Portfolio%20Site) - a simple one page website;
 
 ## **License**
 WTFPL
